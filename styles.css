@@ -1,34 +1,59 @@
 body {
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #f4f4f4;
-  margin: 0;
-  padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
-  width: 90%;
-  max-width: 500px;
-  margin: auto;
-  padding: 2em;
-  background: white;
-  margin-top: 3em;
-  border-radius: 12px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    width: 90%;
+    max-width: 500px;
+    margin: auto;
+    padding: 2em;
+    background: white;
+    margin-top: 3em;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
-input, button {
-  width: 100%;
-  margin-top: 1em;
-  padding: 1em;
-  font-size: 1em;
-  border: 1px solid #ccc;
-  border-radius: 8px;
+
+input,
+button,
+select {
+    width: 100%;
+    margin-top: 1em;
+    padding: 1em;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 8px;
 }
+
 button {
-  background-color: #008cba;
-  color: white;
-  border: none;
-  cursor: pointer;
+    background-color: #008cba;
+    color: white;
+    border: none;
+    cursor: pointer;
 }
+
 button:hover {
-  background-color: #005f7f;
+    background-color: #005f7f;
+}
+
+#add-clothing {
+    margin-top: 2em;
+    padding-top: 1em;
+    border-top: 1px solid #eee;
+}
+
+#clothing-list {
+    margin-top: 2em;
+}
+
+#clothing-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#clothing-list li {
+    padding: 0.5em 0;
+    border-bottom: 1px solid #eee;
 }
