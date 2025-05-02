@@ -2,15 +2,25 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Smart Closet</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="script.js" defer></script>
+  <script type="module" src="firebase.js"></script>
 </head>
 <body>
-  <div id="app">
-    <h1>Welcome to Smart Closet</h1>
-    <p>Organize and personalize your wardrobe with ease!</p>
+  <div class="container" id="auth">
+    <h2>Login or Sign Up</h2>
+    <form id="login-form">
+      <input type="email" name="email" placeholder="Email" required />
+      <input type="password" name="password" placeholder="Password" required />
+      <button type="submit">Enter</button>
+    </form>
   </div>
-  <script type="module" src="app.js"></script>
+
+  <div class="container" id="app" style="display:none;">
+    <h2>Welcome to Smart Closet</h2>
+    <p>Burada kıyafetlerinizi yönetin.</p>
+    <!-- Kıyafet giriş alanları buraya eklenecek -->
+  </div>
 </body>
 </html>

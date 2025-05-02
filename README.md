@@ -1,2 +1,2 @@
-# smartcloset
-AI-powered outfit suggestion app
+# smart-closet
+ Akıllı kıyafet öneri uygulaması
